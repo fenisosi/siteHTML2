@@ -1,0 +1,141 @@
+@charset "UTF-8";
+body {
+    background: #302f2f;
+    color: rgb(189, 184, 184);
+    font: normal, 20pt Arial, sans-ser;
+    height: 100%;
+}
+canvas {
+    position: absolute;
+    top: 30px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+h1 {
+    left: 0px;
+    right: 0px;
+    margin: -10px;
+    border-bottom: 5000px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#botao{ text-align: absolute }
+.botaoEnviar{
+    width: 350px;
+    text-align: absolute;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #a7a6a4;
+    font-size:19px;
+    color: #000000;
+    transition: background-color 1s;
+}
+.botaoEnviar:hover {
+    background-color: #474746;
+    color: aliceblue;
+}
+.container-modal.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 350px;
+    text-align: absolute;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #a7a6a4;
+    font-size: 19px;
+    transition: background-color 1s;
+    box-shadow: 3px 3px 4px black;
+}
+
+button:hover {
+    background-color: #474746;
+    color: aliceblue;
+}
+
+a {
+    margin: auto;
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    color: #dda610;
+}
+picture {
+    position: relative;
+    border: 8px solid #302f2f;
+    box-shadow: 3px 3px 4px black;
+}
+picture source {
+    width: 100%;
+    height: 100%;
+}
+picture figcaption {
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    transition: opacity 1s;
+    
+}
+
+picture {
+    position: relative;
+    border: 8px solid #302f2f;
+    box-shadow: 3px 3px 4px black;
+}
+picture:hover figcaption {
+    opacity: 1;
+    background-color: rgba(0,0,0,.6);
+    color: white;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+figure {
+    position: relative;
+    border: 8px solid #302f2f;
+    box-shadow: 3px 3px 4px black;
+}
+figure source {
+    width: 100%;
+    height: 100%;
+}
+figure figcaption {
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    transition: opacity 1s;
+    height: 84%;
+    width: 100%;
+    
+}
+
+figure {
+    position: relative;
+    border: 8px solid #302f2f;
+    box-shadow: 3px 3px 4px black;
+}
+figure:hover figcaption {
+    opacity: 1;
+    background-color: rgba(0,0,0,.6);
+    color: white;
+    top: 0px;
+    height: 84%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
